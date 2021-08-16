@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clone YouTube</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <div class="header">
+        <div class="header__left">
+            <i class="material-icons">menu</i>
+            <img src="image/youtube.png" width="100"> 
+        </div>
+
+        <div class="header__search">
+            <form action="">
+              <input type="text" placeholder="Search" />
+              <button><i class="material-icons">search</i></button>
+            </form>
+          </div>
+
+        <div class="header__icons">
+            <i class="material-icons">videocam</i>
+            <i class="material-icons">apps</i>
+            <i class="material-icons display-this" id="search">search</i>
+            <i class="material-icons">notifications</i>
+            <i class="material-icons display-this">account_circle</i>
+        </div>
+    </div>
+<!-- categories -->
+
+<!-- end categories -->
+    <div class="mainBody">
+        <div class="sidebar">
+          <div class="sidebar__categories">
+            <div class="sidebar__category">
+              <i class="material-icons">home</i>
+              <span>Home</span>
+            </div>
+            <div class="sidebar__category">
+              <i class="material-icons">local_fire_department</i>
+              <span>Trending</span>
+            </div>
+            <div class="sidebar__category">
+              <i class="material-icons">subscriptions</i>
+              <span>Subcriptions</span>
+            </div>
+          </div>
+          <hr />
+          <div class="sidebar__categories">
+            <div class="sidebar__category">
+              <i class="material-icons">library_add_check</i>
+              <span>Library</span>
+            </div>
+            <div class="sidebar__category">
+              <i class="material-icons">history</i>
+              <span>History</span>
+            </div>
+            <div class="sidebar__category">
+              <i class="material-icons">play_arrow</i>
+              <span>Your Videos</span>
+            </div>
+            <div class="sidebar__category">
+              <i class="material-icons">watch_later</i>
+              <span>Watch Later</span>
+            </div>
+            <div class="sidebar__category">
+              <i class="material-icons">thumb_up</i>
+              <span>Liked Videos</span>
+            </div>
+          </div>
+          <hr />
+        </div>
+
+
+    <div class="videos">
+       
+          <div class="categories">
+              <button class="category active">ALL</button>
+              <button class="category">Danh sách tổng hợp</button>
+              <button class="category">Phim</button>
+              <button class="category">Lập trình</button>
+              <button class="category">trò chơi</button>
+              <button class="category">Trực tiếp</button>
+              <button class="category">Thiên nhiên</button>
+              <button class="category">Bóng đá</button>
+              <button class="category">Thiên nhiên</button>
+              <button class="category">Hoạt hình</button>
+            </section>
+          </div>    
+          <div class="videos__container">
+          <div class="video">
+            <div class="video__thumbnail">
+              <img src="https://i.ytimg.com/vi/MHNiCwZbuZE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA0lJHeschE1NuWSEKJ8CpuBLu1Yg" alt="" />
+            </div>
+            <div class="video__details">
+              <div class="author">
+                <img src="https://yt3.ggpht.com/cD8kU_Lj-RXnyBfmVRWwjlS49E5xYtlXuch8UwCKYAbfcDdhqn7ZFf2RXV756_s-M-9hPdEX=s68-c-k-c0x00ffffff-no-rj" alt="" />
+              </div>
+              <div class="title">
+                <h3>
+                    Phú Quý Bò Viên (8ight) - Anh Phan ft. Tùng Chùa (MV)
+                </h3>
+                <a href="">Những đứa trẻ tăng động</a>
+                <span>6.2tr lượt xem • 3 Tháng trước</span>
+              </div>
+            </div>
+          </div>
+          <div class="video">
+            <div class="video__thumbnail">
+              <img src="https://i.ytimg.com/vi/MHNiCwZbuZE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA0lJHeschE1NuWSEKJ8CpuBLu1Yg" alt="" />
+            </div>
+            <div class="video__details">
+              <div class="author">
+                <img src="https://yt3.ggpht.com/cD8kU_Lj-RXnyBfmVRWwjlS49E5xYtlXuch8UwCKYAbfcDdhqn7ZFf2RXV756_s-M-9hPdEX=s68-c-k-c0x00ffffff-no-rj" alt="" />
+              </div>
+              <div class="title">
+                <h3>
+                    Phú Quý Bò Viên (8ight) - Anh Phan ft. Tùng Chùa (MV)
+                </h3>
+                <a href="">Những đứa trẻ tăng động</a>
+                <span>6.2tr lượt xem • 3 Tháng trước</span>
+              </div>
+            </div>
+          </div>
+          <div class="video">
+            <div class="video__thumbnail">
+              <img src="https://i.ytimg.com/vi/MHNiCwZbuZE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA0lJHeschE1NuWSEKJ8CpuBLu1Yg" alt="" />
+            </div>
+            <div class="video__details">
+              <div class="author">
+                <img src="https://yt3.ggpht.com/cD8kU_Lj-RXnyBfmVRWwjlS49E5xYtlXuch8UwCKYAbfcDdhqn7ZFf2RXV756_s-M-9hPdEX=s68-c-k-c0x00ffffff-no-rj" alt="" />
+              </div>
+              <div class="title">
+                <h3>
+                    Phú Quý Bò Viên (8ight) - Anh Phan ft. Tùng Chùa (MV)
+                </h3>
+                <a href="">Những đứa trẻ tăng động</a>
+                <span>6.2tr lượt xem • 3 Tháng trước</span>
+              </div>
+            </div>
+          </div>
+          <div class="video">
+            <div class="video__thumbnail">
+              <img src="https://i.ytimg.com/vi/MHNiCwZbuZE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA0lJHeschE1NuWSEKJ8CpuBLu1Yg" alt="" />
+            </div>
+            <div class="video__details">
+              <div class="author">
+                <img src="https://yt3.ggpht.com/cD8kU_Lj-RXnyBfmVRWwjlS49E5xYtlXuch8UwCKYAbfcDdhqn7ZFf2RXV756_s-M-9hPdEX=s68-c-k-c0x00ffffff-no-rj" alt="" />
+              </div>
+              <div class="title">
+                <h3>
+                    Phú Quý Bò Viên (8ight) - Anh Phan ft. Tùng Chùa (MV)
+                </h3>
+                <a href="">Những đứa trẻ tăng động</a>
+                <span>6.2tr lượt xem • 3 Tháng trước</span>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="video">
+            <div class="video__thumbnail">
+              <img src="https://i.ytimg.com/an_webp/6gz-_fGTzO8/mqdefault_6s.webp?du=3000&sqp=COb-yIgG&rs=AOn4CLBsWemEAZQtJ2gQaMjsmj3kTDRd5w" alt="" />
+            </div>
+            <div class="video__details">
+              <div class="author">
+                <img src="https://yt3.ggpht.com/ytc/AKedOLTh6ReF7VfrX_xU4eJpod-k_zG6r8xOnCRIXD3BZQ=s68-c-k-c0x00ffffff-no-rj" alt="" />
+              </div>
+              <div class="title">
+                <h3>Tại Sao Bạn Nên Xem KINGDOM (VƯƠNG TRIỀU XÁC SỐNG)?</h3>
+                <a href="">Phê Phim</a>
+                <span>107 N lượt xem • 1 năm trước </span>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="video">
+            <div class="video__thumbnail">
+              <img src="https://i.ytimg.com/an_webp/58c4-M7V9ks/mqdefault_6s.webp?du=3000&sqp=CMjxx4gG&rs=AOn4CLDN0ZO-ey9GTA40sokH-dDU5uS0iQ" alt="" />
+            </div>
+            <div class="video__details">
+              <div class="author">
+                <img
+                  src="https://yt3.ggpht.com/KmR5rbhwX-bvfnT1Ov-b72tb6irZ9Zcy0l12oYL5DnNclyNSNX5cMcIWLnwANpDdbMN6RLXu=s68-c-k-c0x00ffffff-no-rj"
+                  alt=""
+                />
+              </div>
+              <div class="title">
+                <h3>Tage - OVERRATED (Official Visualizer) Prod. by Sony Tran</h3>
+                <a href="">Tage.M.</a>
+                <span>2,1tr lượt xem • 2 tuần trước</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="video">
+            <div class="video__thumbnail">
+              <img src="https://i.ytimg.com/vi/wHYt_bCtBwY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCKG553J-yU3kbyAV0oXvwGYEeuwg" alt="" />
+            </div>
+            <div class="video__details">
+              <div class="author">
+                <img
+                  src="https://yt3.ggpht.com/ytc/AKedOLRYf6yMVKjilhkHsRAOmNOCFXJ_V92tLxf9d53t=s68-c-k-c0x00ffffff-no-rj"
+                  alt=""
+                />
+              </div>
+              <div class="title">
+                <h3>Không Tên || MCK a.k.a Nger || Official Lyrics Video</h3>
+                <a href=""> MCK //Nger</a>
+                <span>3tr lượt xem • 7 tháng trước</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="video">
+            <div class="video__thumbnail">
+              <img src="https://i.ytimg.com/vi/O4XDCV08Rng/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCy26kpEkvR0WEt7rXaBA_sU7JyxA" alt="" />
+            </div>
+            <div class="video__details">
+              <div class="author">
+                <img
+                  src="https://yt3.ggpht.com/ytc/AKedOLQ6J6HEjDcNNzoWkroZLa1AshDcOj3X74DGKExa=s68-c-k-c0x00ffffff-no-rj"
+                  alt=""
+                />
+              </div>
+              <div class="title">
+                <h3>UầYYY (Prod. by RPT PhongKhin) - RAPITAL & SpideyBoy (Official Music Video)</h3>
+                <a href="">Rapital Official</a>
+                <span>4,1 Tr lượt xem • 2 tháng trước</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="video">
+            <div class="video__thumbnail">
+              <img src="https://i.ytimg.com/vi/HOGfrOK9a84/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC2hEgAAQnAK9-vSN_pZUsrDOExiQ" alt="" />
+            </div>
+            <div class="video__details">
+              <div class="author">
+                <img
+                  src="https://yt3.ggpht.com/ytc/AKedOLQyAc-lV-wv9pFAyi-erdbkQXVBVUJfWVobw2qK=s68-c-k-c0x00ffffff-no-rj"
+                  alt=""
+                />
+              </div>
+              <div class="title">
+                <h3>TỘC CA | PHÚC DU x SONBEAT | OFFICIAL LYRIC VIDEO.</h3>
+                <a href="">MixiGaming</a>
+                <span>17 Tr lượt xem • 2 năm trước</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="video">
+            <div class="video__thumbnail">
+              <img src="https://i.ytimg.com/vi/WCCp0zbnR50/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA6GlIdSIC1wafwsWdXHzSE7sj-Hw" alt="" />
+            </div>
+            <div class="video__details">
+              <div class="author">
+                <img
+                  src="https://yt3.ggpht.com/ytc/AKedOLQ6J6HEjDcNNzoWkroZLa1AshDcOj3X74DGKExa=s68-c-k-c0x00ffffff-no-rj"
+                  alt=""
+                />
+              </div>
+              <div class="title">
+                <h3>Rap Chậm Thôi (#HNDCMM) - RPT MCK x RPT Orijinn ft. RZ Ma$ (Official Lyric Video)</h3>
+                <a href="">Rapital Official</a>
+                <span>11 Tr lượt xem • 1 năm trước</span>
+              </div>
+            </div>
+          </div>   
+
+          <div class="video">
+            <div class="video__thumbnail">
+              <img 
+              src="https://i.ytimg.com/vi/JZQ3GxijxOw/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDT6-pbgGUUkfP0DvB9Ztn5e1EdhQ" alt=""/>
+            </div>
+            <div class="video__details">
+              <div class="author">
+                <img src="https://yt3.ggpht.com/ytc/AKedOLSldnze6RNHQxcX8YA0bysl7Q9FWNXPCeO4A3qy=s68-c-k-c0x00ffffff-no-rj"
+                alt=""
+                />
+              </div>
+              <div class="title">
+                <h3>MANCHESTER UNITED CỦA HLV OLE SOLSKJAER BẮT BUỘC PHẢI VÔ ĐỊCH NĂM NAY? | DEBATE NGOẠI HẠNG ANH 21/22</h3>
+                <a href="">Kplus Sports</a>
+                <span>52N lượt xem • 1 ngày trước</span>
+              </div>
+            </div>
+          </div>         
+
+          <div class="video">
+            <div class="video__thumbnail">
+              <img 
+              src="https://i.ytimg.com/an_webp/OBTr7coiccQ/mqdefault_6s.webp?du=3000&sqp=CKiCyYgG&rs=AOn4CLDSxLAgzlUwS5g252etWMIy_FHLyA" alt=""/>
+            </div>
+            <div class="video__details">
+              <div class="author">
+                <img src="https://yt3.ggpht.com/ytc/AKedOLQsEJAJVWu3WFjxnLP_hjwuJqXm5Y_egivBEAW7tQ=s68-c-k-c0x00ffffff-no-rj"
+                alt=""
+                />
+              </div>
+              <div class="title">
+                <h3>Jadon Sancho's FIRST training session at Carrington! | Manchester United</h3>
+                <a href="">Manchester United</a>
+                <span>856 N lượt xem • 8 giờ trước</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="videos">
+
+       <h3>Tiếp Tục Xem </h3>
+
+            <div class="videos__container">
+            <div class="video">
+              <div class="video__thumbnail">
+                <img src="https://i.ytimg.com/vi/MHNiCwZbuZE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA0lJHeschE1NuWSEKJ8CpuBLu1Yg" alt="" />
+              </div>
+              <div class="video__details">
+                <div class="author">
+                  <img src="https://yt3.ggpht.com/cD8kU_Lj-RXnyBfmVRWwjlS49E5xYtlXuch8UwCKYAbfcDdhqn7ZFf2RXV756_s-M-9hPdEX=s68-c-k-c0x00ffffff-no-rj" alt="" />
+                </div>
+                <div class="title">
+                  <h3>
+                      Phú Quý Bò Viên (8ight) - Anh Phan ft. Tùng Chùa (MV)
+                  </h3>
+                  <a href="">Những đứa trẻ tăng động</a>
+                  <span>6.2tr lượt xem • 3 Tháng trước</span>
+                </div>
+              </div>
+            </div>
+            <div class="video">
+              <div class="video__thumbnail">
+                <img src="https://i.ytimg.com/vi/MHNiCwZbuZE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA0lJHeschE1NuWSEKJ8CpuBLu1Yg" alt="" />
+              </div>
+              <div class="video__details">
+                <div class="author">
+                  <img src="https://yt3.ggpht.com/cD8kU_Lj-RXnyBfmVRWwjlS49E5xYtlXuch8UwCKYAbfcDdhqn7ZFf2RXV756_s-M-9hPdEX=s68-c-k-c0x00ffffff-no-rj" alt="" />
+                </div>
+                <div class="title">
+                  <h3>
+                      Phú Quý Bò Viên (8ight) - Anh Phan ft. Tùng Chùa (MV)
+                  </h3>
+                  <a href="">Những đứa trẻ tăng động</a>
+                  <span>6.2tr lượt xem • 3 Tháng trước</span>
+                </div>
+              </div>
+            </div>
+            <div class="video">
+              <div class="video__thumbnail">
+                <img src="https://i.ytimg.com/vi/MHNiCwZbuZE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA0lJHeschE1NuWSEKJ8CpuBLu1Yg" alt="" />
+              </div>
+              <div class="video__details">
+                <div class="author">
+                  <img src="https://yt3.ggpht.com/cD8kU_Lj-RXnyBfmVRWwjlS49E5xYtlXuch8UwCKYAbfcDdhqn7ZFf2RXV756_s-M-9hPdEX=s68-c-k-c0x00ffffff-no-rj" alt="" />
+                </div>
+                <div class="title">
+                  <h3>
+                      Phú Quý Bò Viên (8ight) - Anh Phan ft. Tùng Chùa (MV)
+                  </h3>
+                  <a href="">Những đứa trẻ tăng động</a>
+                  <span>6.2tr lượt xem • 3 Tháng trước</span>
+                </div>
+              </div>
+            </div>
+            <div class="video">
+              <div class="video__thumbnail">
+                <img src="https://i.ytimg.com/vi/MHNiCwZbuZE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA0lJHeschE1NuWSEKJ8CpuBLu1Yg" alt="" />
+              </div>
+              <div class="video__details">
+                <div class="author">
+                  <img src="https://yt3.ggpht.com/cD8kU_Lj-RXnyBfmVRWwjlS49E5xYtlXuch8UwCKYAbfcDdhqn7ZFf2RXV756_s-M-9hPdEX=s68-c-k-c0x00ffffff-no-rj" alt="" />
+                </div>
+                <div class="title">
+                  <h3>
+                      Phú Quý Bò Viên (8ight) - Anh Phan ft. Tùng Chùa (MV)
+                  </h3>
+                  <a href="">Những đứa trẻ tăng động</a>
+                  <span>6.2tr lượt xem • 3 Tháng trước</span>
+                </div>
+              </div>
+            </div>
+  
+            <div class="video">
+              <div class="video__thumbnail">
+                <img src="https://i.ytimg.com/an_webp/6gz-_fGTzO8/mqdefault_6s.webp?du=3000&sqp=COb-yIgG&rs=AOn4CLBsWemEAZQtJ2gQaMjsmj3kTDRd5w" alt="" />
+              </div>
+              <div class="video__details">
+                <div class="author">
+                  <img src="https://yt3.ggpht.com/ytc/AKedOLTh6ReF7VfrX_xU4eJpod-k_zG6r8xOnCRIXD3BZQ=s68-c-k-c0x00ffffff-no-rj" alt="" />
+                </div>
+                <div class="title">
+                  <h3>Tại Sao Bạn Nên Xem KINGDOM (VƯƠNG TRIỀU XÁC SỐNG)?</h3>
+                  <a href="">Phê Phim</a>
+                  <span>107 N lượt xem • 1 năm trước </span>
+                </div>
+              </div>
+            </div>
+  
+  
+            <div class="video">
+              <div class="video__thumbnail">
+                <img src="https://i.ytimg.com/an_webp/58c4-M7V9ks/mqdefault_6s.webp?du=3000&sqp=CMjxx4gG&rs=AOn4CLDN0ZO-ey9GTA40sokH-dDU5uS0iQ" alt="" />
+              </div>
+              <div class="video__details">
+                <div class="author">
+                  <img
+                    src="https://yt3.ggpht.com/KmR5rbhwX-bvfnT1Ov-b72tb6irZ9Zcy0l12oYL5DnNclyNSNX5cMcIWLnwANpDdbMN6RLXu=s68-c-k-c0x00ffffff-no-rj"
+                    alt=""
+                  />
+                </div>
+                <div class="title">
+                  <h3>Tage - OVERRATED (Official Visualizer) Prod. by Sony Tran</h3>
+                  <a href="">Tage.M.</a>
+                  <span>2,1tr lượt xem • 2 tuần trước</span>
+                </div>
+              </div>
+            </div>
+  
+            <div class="video">
+              <div class="video__thumbnail">
+                <img src="https://i.ytimg.com/vi/wHYt_bCtBwY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCKG553J-yU3kbyAV0oXvwGYEeuwg" alt="" />
+              </div>
+              <div class="video__details">
+                <div class="author">
+                  <img
+                    src="https://yt3.ggpht.com/ytc/AKedOLRYf6yMVKjilhkHsRAOmNOCFXJ_V92tLxf9d53t=s68-c-k-c0x00ffffff-no-rj"
+                    alt=""
+                  />
+                </div>
+                <div class="title">
+                  <h3>Không Tên || MCK a.k.a Nger || Official Lyrics Video</h3>
+                  <a href=""> MCK //Nger</a>
+                  <span>3tr lượt xem • 7 tháng trước</span>
+                </div>
+              </div>
+            </div>
+  
+            <div class="video">
+              <div class="video__thumbnail">
+                <img src="https://i.ytimg.com/vi/O4XDCV08Rng/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCy26kpEkvR0WEt7rXaBA_sU7JyxA" alt="" />
+              </div>
+              <div class="video__details">
+                <div class="author">
+                  <img
+                    src="https://yt3.ggpht.com/ytc/AKedOLQ6J6HEjDcNNzoWkroZLa1AshDcOj3X74DGKExa=s68-c-k-c0x00ffffff-no-rj"
+                    alt=""
+                  />
+                </div>
+                <div class="title">
+                  <h3>UầYYY (Prod. by RPT PhongKhin) - RAPITAL & SpideyBoy (Official Music Video)</h3>
+                  <a href="">Rapital Official</a>
+                  <span>4,1 Tr lượt xem • 2 tháng trước</span>
+                </div>
+              </div>
+            </div>
+  
+            <div class="video">
+              <div class="video__thumbnail">
+                <img src="https://i.ytimg.com/vi/HOGfrOK9a84/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC2hEgAAQnAK9-vSN_pZUsrDOExiQ" alt="" />
+              </div>
+              <div class="video__details">
+                <div class="author">
+                  <img
+                    src="https://yt3.ggpht.com/ytc/AKedOLQyAc-lV-wv9pFAyi-erdbkQXVBVUJfWVobw2qK=s68-c-k-c0x00ffffff-no-rj"
+                    alt=""
+                  />
+                </div>
+                <div class="title">
+                  <h3>TỘC CA | PHÚC DU x SONBEAT | OFFICIAL LYRIC VIDEO.</h3>
+                  <a href="">MixiGaming</a>
+                  <span>17 Tr lượt xem • 2 năm trước</span>
+                </div>
+              </div>
+            </div>
+  
+            <div class="video">
+              <div class="video__thumbnail">
+                <img src="https://i.ytimg.com/vi/WCCp0zbnR50/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA6GlIdSIC1wafwsWdXHzSE7sj-Hw" alt="" />
+              </div>
+              <div class="video__details">
+                <div class="author">
+                  <img
+                    src="https://yt3.ggpht.com/ytc/AKedOLQ6J6HEjDcNNzoWkroZLa1AshDcOj3X74DGKExa=s68-c-k-c0x00ffffff-no-rj"
+                    alt=""
+                  />
+                </div>
+                <div class="title">
+                  <h3>Rap Chậm Thôi (#HNDCMM) - RPT MCK x RPT Orijinn ft. RZ Ma$ (Official Lyric Video)</h3>
+                  <a href="">Rapital Official</a>
+                  <span>11 Tr lượt xem • 1 năm trước</span>
+                </div>
+              </div>
+            </div>   
+  
+            <div class="video">
+              <div class="video__thumbnail">
+                <img 
+                src="https://i.ytimg.com/vi/JZQ3GxijxOw/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDT6-pbgGUUkfP0DvB9Ztn5e1EdhQ" alt=""/>
+              </div>
+              <div class="video__details">
+                <div class="author">
+                  <img src="https://yt3.ggpht.com/ytc/AKedOLSldnze6RNHQxcX8YA0bysl7Q9FWNXPCeO4A3qy=s68-c-k-c0x00ffffff-no-rj"
+                  alt=""
+                  />
+                </div>
+                <div class="title">
+                  <h3>MANCHESTER UNITED CỦA HLV OLE SOLSKJAER BẮT BUỘC PHẢI VÔ ĐỊCH NĂM NAY? | DEBATE NGOẠI HẠNG ANH 21/22</h3>
+                  <a href="">Kplus Sports</a>
+                  <span>52N lượt xem • 1 ngày trước</span>
+                </div>
+              </div>
+            </div>         
+  
+            <div class="video">
+              <div class="video__thumbnail">
+                <img 
+                src="https://i.ytimg.com/an_webp/OBTr7coiccQ/mqdefault_6s.webp?du=3000&sqp=CKiCyYgG&rs=AOn4CLDSxLAgzlUwS5g252etWMIy_FHLyA" alt=""/>
+              </div>
+              <div class="video__details">
+                <div class="author">
+                  <img src="https://yt3.ggpht.com/ytc/AKedOLQsEJAJVWu3WFjxnLP_hjwuJqXm5Y_egivBEAW7tQ=s68-c-k-c0x00ffffff-no-rj"
+                  alt=""
+                  />
+                </div>
+                <div class="title">
+                  <h3>Jadon Sancho's FIRST training session at Carrington! | Manchester United</h3>
+                  <a href="">Manchester United</a>
+                  <span>856 N lượt xem • 8 giờ trước</span>
+                </div>
+              </div>
+            </div>
+     
+  </body>
+</html>
